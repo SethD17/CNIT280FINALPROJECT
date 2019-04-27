@@ -1,0 +1,52 @@
+#grad1 {
+  height: 1100px;
+  margin: 0;
+  background-image: linear-gradient(white, #333);
+}
+html, body {
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+form {
+text-align: center;
+}
+
+button {
+
+  border: 20px;
+  padding: 20px
+  margin: 30px;
+  width: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  margin: 14px;
+  padding: 20px;
+  width: 30px;
+}
+
+a:hover{
+  color: black;
+  background-color: white;
+}
+
+input{
+  text-align: center;
+}
+
+.Data {
+  color: #4CAF50;
+}
+.Tech{
+  color:#1492e0;
+}
+}

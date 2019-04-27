@@ -1,0 +1,1 @@
+To launch the website start the LandingPage HTML file with the whole folder downloaded.

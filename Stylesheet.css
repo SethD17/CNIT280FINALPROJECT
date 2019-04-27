@@ -1,0 +1,195 @@
+body{
+  margin: 0px;
+}
+.grad1 {
+  height: 1100px;
+  margin: 0;
+  background-image: linear-gradient(white, #333);
+}
+h1, h2, h3, h5, h6{
+  text-align: center;
+}
+
+
+ul.Nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.Nav li {
+  float: left;
+}
+
+ul.Nav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: solid #999;
+}
+
+/* Change the link color to #111 (black) on hover */
+ul.Nav li a:hover {
+  background-color: #111;
+}
+ul.Nav li:last-child{
+  float:right;
+  border-left: solid#999;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+p {
+  text-align: justify;
+  color: grey;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.Data {
+  color: #4CAF50;
+}
+.Tech{
+  color:#1492e0;
+}
+
+ul.Returns{
+  list-style-type: none;
+  width: 100px;
+}
+
+li.Returns{
+  display: block;
+  background-color: #333;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  border-right: none;
+}
+
+
+ul.Returns:last-child{
+  float:left;
+
+}
+.PayReturn:hover{
+  background-color: #40B512;
+}
+.paybutton:hover{
+  background-color: #40b512;
+}
+input {
+  text-align: center;
+}
+button.Return {
+  border: 20px;
+  padding: 20px;
+  margin: 30px;
+}
+.paybutton {
+  padding: 14px;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+.payhistory{
+  text-align: left;
+  padding-left: 32px;
+  margin-top: 40px;
+}
+
+.PayReturn{
+  margin-left: 2px;
+  margin-bottom: 50px;
+  padding: 14px;
+  text-decoration: none;
+  background-color: #333;
+  color: white;
+}
+.ReturnButton{
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+}
+
+.footer{
+   position: fixed;
+   padding-top: 15px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333;
+   color: white;
+   text-align: center;
+}
+p.foot{
+  text-align: center;
+}
+
+.PaymentTable{
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #dddddd
+}
+.PaymentTable tr{
+  text-align: left;
+}
+.PaymentTable td,th{
+  border: 1px solid #dddddd;
+  padding: 8px
+}
+.PaymentTable tr:nth-child(even){
+  background-color: lightgrey;
+}
+
+ul.ReceiptList{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  overflow: hidden;
+  background-color: #5e5e5e;
+}
+ul.ReceiptList li a{
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+ul.ReceiptList li a:hover{
+  background-color: grey;
+}
+.InputNameDiv{
+  text-align: center;
+  margin-bottom: 18px;
+}
+.SelectDiv{
+  text-align: center;
+  margin: 5px;
+}
+.ConsolidateButton{
+  text-align: center;
+  margin-top: 15px;
+}
+.GenerateReportButton{
+  background-color: #333;
+  color: white;
+  padding: 5px;
+}
+.invoiceTables{
+  margin-top: 40px;
+}
